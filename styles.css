@@ -1,0 +1,135 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html, body{
+  height: 100%;
+}
+
+#para{
+  display: block;
+  height:100%;
+  background-image: url(https://media.giphy.com/media/U4FkC2VqpeNRHjTDQ5/giphy.gif);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#para h1{
+  padding: 220px 0px 0px 510px;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 45px;
+  color: white;
+}
+
+#tagline{
+  height: 50px;
+  width: 550px;
+  padding: 0px 0px 0px 430px;
+  font-family: 'Flamenco', cursive;
+  font-size: 30px;
+  color: antiquewhite;
+}
+
+#para2{
+  justify-content: space-around;
+  display: flex;
+  height:100%;
+  background-image: url(https://i.gifer.com/J5A.gif);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#para2_1, #para2_2, #para2_3{
+  margin-top: 110px;
+  border: 1px solid white;
+  height:300px;
+  width: 300px;
+  display: block;
+  border-bottom: 40px solid white;
+}
+
+#para2_1{
+  
+  background-image: url(media/pic01.jpg);
+}
+
+#para2_2{
+  background-image: url(media/pic02.jpg);
+}
+
+#para2_3{
+  background-image: url(media/pic03.jpg);
+}
+
+#divhd{
+  color: red;   
+  padding-top: 310px;
+  padding-left: 90px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+}
+
+#content{
+  align-items: center;
+  text-align: center;
+  height: 200px;
+  width: 100%;
+  background-color: white;
+}
+
+#content h1{
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+#content p{
+  text-align: center;
+  padding: 5px 20px; 20px; 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+}
+
+#navbar{
+  display: flex;
+  flex-direction: column;
+  background-color: ghostwhite;
+/*  border: 2px solid red;*/
+}
+
+#navbar ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+#navbar ul li{
+  padding: 10px;
+}
+
+#navbar ul li a{
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+#navbar ul li:hover{
+  background-color: black;
+  color: white;
+}
+
+#navbar ul li a:hover{
+  color: white;
+}
+
+#footer{
+  font-family: 'Roboto', sans-serif;
+  padding: 20px 0px 0px 490px;
+  background-color: ghostwhite;
+  height: 40px;
+}
